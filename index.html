@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/flexbox.css">
+    <title>AluraPlay</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Cabecera -->
+    <header>
+
+        <nav class="cabecera__container">
+
+            <h1 class="logo__item" href="#"></h1>
+
+            <div class="cabecera__buscar__item">
+                <form action="">
+                    <input type="search" placeholder="Buscar" id="buscar" class="buscar__input">
+                    <label for="buscar" class="buscar__label"></label>
+                </form>
+                <a href="#" class="cabecera__audio"></a>
+            </div>
+
+            <div class="cabecera__iconos__item">
+                <a href="#" class="cabecera__videos"></a>
+                <a href="#" class="cabecera__apps"></a>
+                <a href="#" class="cabecera__notificaciones"></a>
+                <a href="#" class="cabecera__avatar"></a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Menu lateral -->
+
+    <aside class="menu__container">
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__inicio icono-item"></i>
+                    <span>Inicio</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__explorar icono-item"></i>
+                    <span>Explorar</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__shorts icono-item"></i>
+                    <span>Shorts</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__suscripciones icono-item"></i>
+                    <span>Suscripcion</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__biblioteca icono-item"></i>
+                    <span>Biblioteca</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__historico icono-item"></i>
+                    <span>Histórico</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__reloj icono-item"></i>
+                    <span>Ver más tarde</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__like icono-item"></i>
+                    <span>Videos que me gustan</span></a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__mostrar icono-item"></i>
+                    <span>Mostrar más</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__deschamps icono-item"></i>
+                    <span>Felipe Deschamps</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__nerd icono-item"></i>
+                    <span>Jovem Nerd</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__souto icono-item"></i>
+                    <span>Mario Souto</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__iamarino icono-item"></i>
+                    <span>Atila Iamarino</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__ballerini icono-item"></i>
+                    <span>Rafaella Ballerini</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__gaveta icono-item"></i>
+                    <span>Gaveta</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens" href="#">
+                    <i class="icono__alura icono-item"></i>
+                    <span>Alura Latam</span></a>
+            </li>
+
+            <li>
+                <a class="menu__itens suscripciones" href="#">Suscripciones</a>
+            </li>
+        </ul>
+
+        <ul class="menu__lista">
+            <li class="videojuegos">
+                <a class="menu__itens" href="#">
+                    <i class="icono__videojuegos icono-item"></i>
+                    <span>Videojuegos</span></a>
+            </li>
+
+            <li class="peliculas">
+                <a class="menu__itens" href="#">
+                    <i class="icono__peliculas icono-item"></i>
+                    <span>Películas</span></a>
+            </li>
+            <li class="premium">
+                <a class="menu__itens" href="#">
+                    <i class="icono__videos icono-item"></i>
+                    <span>Vídeo Premium</span></a>
+            </li>
+
+            <li class="menu__itens maspagina">
+                <a href="#">MÁS DE LA PÁGINA</a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Sección superior -->
+
+    <section class="superior__seccion__container">
+        <a class="superior__item" href="#">Todo</a>
+        <a class="superior__item" href="#">Debates</a>
+        <a class="superior__item" href="#">En Vivo</a>
+        <a class="superior__item" href="#">Podcasts</a>
+        <a class="superior__item" href="#">Fondos de Inversión</a>
+        <a class="superior__item" href="#">Anime</a>
+        <a class="superior__item" href="#">Data Science</a>
+        <a class="superior__item" href="#">Apps</a>
+        <a class="superior__item" href="#">Lenguaje de Progamación</a>
+        <a class="superior__item" href="#">Ciencia de la computación</a>
+        <a class="superior__item" href="#">Marketing</a>
+    </section>
+
+    <!-- Vídeos -->
+    
+    <ul class="videos__container">
+        <li class="videos__item">
+            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/PwheldW6V98?si=mJKUmresNkF_c4Q1" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Descubre todo sobre el ChatGPT: Descifrando los Secretos de los Grandes</h3>
+                    <p>456  vistas - hace 2 semanas</p>
+                </div>
+            </div>
+        </li>
+       
+        <li class="videos__item">
+            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/r5T2aO9YXb0?si=aHWokvcs63ff33l1" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>ChatGPT e Ingeniería de Prompts: técnicas para el prompt perfecto</h3>
+                    <p>618  vistas - hace 2 semanas</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/qBrlvcQjrCA?si=NtRiXE2M6UXFpuVy" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Funcionalidad en foco: introducción a la programación funcional #Aluratips</h3>
+                    <p>242  vistas - hace 1 mes</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/xdzz3_WqFmE?si=K3vRJxqY2Xt9v2D4" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Las ventajas del aprendizaje autodidacta #Aluratips</h3>
+                    <p>312 vistas - hace 1 meses</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe  width="100%"  height="72%"src="https://www.youtube.com/embed/DeM2Ak8tWFU?si=z9eTmcwKMhbGnOSM" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Cómo aprender mejor #aluramás</h3>
+                    <p>242 vistas - hace 2 meses</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/b5M9ws0X3FQ?si=BByTwoZV_195ifW0"
+             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <h3>WebScraping y análisis de datos #aluramás</h3>
+                <p>266 vistas - hace 2 meses</p>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/1EJ69twpnMo?si=77XLahry_zDuc666"
+             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Cómo funciona el Machine Learning #aluramás</h3>
+                    <p>335 vistas - hace 2 meses</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe  width="100%"  height="72%" src="https://www.youtube.com/embed/SAusS82-xQ0?si=w0csFllv1LjuLs7O" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Inmersión Dev: Tus primeros pasos con Javascript </h3>
+                    <p>8.4 k vistas -Transmitido hace 3 mes</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/hNUuAYmGL1M?si=BLk4jJSDjyTHBoXO" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Productividad con ChatGPT y Excel #Aluratips</h3>
+                    <p>459 vistas- hace 3 meses</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/AULPtYo25Lw?si=Cp7Ovqt-8SBA_3tj" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Consejos para aumentar tu productividad en el trabajo...</h3>
+                    <p>470 vistas - hace 3 meses</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/zOetOoeOrOg?si=R64GU4elwkU-ce7V" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Camino hacia el éxito como desarrollador Java #Aluratips</h3>
+                    <p>918 vistas - hace 4 meses</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/VKj8MlylaPg?si=3nhakwSHEgqM_RL6" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Desarrollo Senior: Descubre el Significado #Aluratips</h3>
+                    <p>550 vistas - hace 4 meses</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/CpL7-sbW2O0?si=nBPiodanhasOV7D8"
+             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Inmersión Datos 2: ¿Cuáles son los próximos pasos...</h3>
+                    <p>3.7 k vistas - hace 4 meses</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/QjOWz9avkg8?si=hLgmCHaYTWoHi03R" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Front-end vs. Back-end #LuchaDev</h3>
+                    <p>1.3 k vistas - hace 7 meses</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/PztCEdIJITY?si=5fxDg327jUp5TA_X" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>Cuándo usar let, var y const? #AluraMás</h3>
+                    <p>69 k de vistas - hace 1 año</p>
+                </div>
+            </div>
+        </li>
+        <li class="videos__item">
+            <iframe width="100%"  height="72%" src="https://www.youtube.com/embed/3W983Q2NzRI?si=eCcE3jEyAUJu_tju" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="descripcion-video">
+                <img src="./img/videos/Ellipse 11.png" alt="Logo del canal Alura Latam ">
+                <div class="detalles__video">
+                    <h3>¿Qué es la lógica de programación  #AluraMás</h3>
+                    <p>95 k vistas - hace 1 año</p>
+                </div>
+            </div>
+        </li>
+        
+
+
+    </ul> 
+
+    <!-- <SECCIÓN rodapié> -->
+    <footer class="rodapie__container">
+        <section>
+            <h2 class="rodapie__titulo">Programación</h2>
+            <p class="rodapie__texto">Lógica</p>
+            <p>Python</p>
+            <p>Computación</p>
+            <p>Juegos</p>
+            <p>Computación</p>
+            <p>Node JS</p>
+        </section>
+
+        <section>
+            <h2 class="rodapie__titulo">Data Science</h2>
+            <p class="rodapie__texto">Ciencia de datos</p>
+            <p>BI</p>
+            <p>SQL</p>
+            <p>Banco de Datos</p>
+            <p>Machine Learning</p>
+            <p>NoSQL</p>
+        </section>
+
+        <section>
+            <h2 class="rodapie__titulo">UX e Design</h2>
+            <p class="rodapie__texto">Photoshop</p>
+            <p>Illustrator</p>
+            <p>Usabilidad</p>
+            <p>Vídeo e Motion</p>
+            <p>Figma</p>
+            <p>Interfaz</p>
+        </section>
+
+        <section>
+            <h2 class="rodapie__titulo">Inovación y Gestión</h2>
+            <p class="rodapie__texto">Metodologías ágiles</p>
+            <p>Softskills</p>
+            <p>Liderazgo</p>
+            <p>Gestión</p>
+            <p>Startups</p>
+            <p>Ventas</p>
+        </section>
+
+        <section>
+            <h2 class="rodapie__titulo">Front-end</h2>
+            <p class="rodapie__texto">HTML</p>
+            <p>CSS</p>
+            <p>React</p>
+            <p>Angular</p>
+            <p>JavaScript</p>
+            <p>jQuery</p>
+        </section>
+
+        <section>
+            <h2 class="rodapie__titulo">Devops</h2>
+            <p class="rodapie__texto">AWS</p>
+            <p>Azure</p>
+            <p>Docker</p>
+            <p>Seguridad</p>
+            <p>IaC</p>
+            <p>Linux</p>
+        </section>
+
+        <section>
+            <h2 class="rodapie__titulo">Mobile</h2>
+            <p class="rodapie__texto">React Native</p>
+            <p>Flutter</p>
+            <p>iOS</p>
+            <p>Swift</p>
+            <p>Android</p>
+            <p>Kotlin</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>

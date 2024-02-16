@@ -76,22 +76,6 @@
         display: block
     }
 
-    /* Desafío Menú Lateral */
-    .menu__container {
-        left: 0;
-        height: auto;
-        width: 74px;
-        top: 80px;
-    }
-    
-    .menu__lista {
-        flex-direction: column;
-        justify-content: flex-start;
-        padding-top: 15px;
-        gap: 33px;
-    }
-
-
     /* Rodapie */
     .rodapie__container{
         justify-content: space-between;
@@ -102,50 +86,5 @@
 
 
 
-@media (min-width:1440px ){
 
-    .menu__container{
-        width: 239px;
-        overflow: scroll;
-
-    }
-
-    .menu__lista:nth-child(2),
-    .menu__lista:nth-child(3),
-    .menu__lista:nth-child(4){
-        display: flex;
-    }
-
-    .menu__lista{
-        height: auto;
-        padding: 20px 17px 20px 15px;
-        gap: 15px;
-       
-    }
-
-    .menu__lista:nth-child(3){
-        flex-direction: column-reverse;
-
-    }
-    .menu__itens{
-        flex-direction: row;
-        gap: 15px;
-        align-items: center;
-    }
-
-    .videojuegos{
-        order: 3;
-    }
-
-    .peliculas{
-        order:2;
-    }
-
-    .premium{
-        order:1;
-    }
-
-    
-   
-}
 

@@ -11,37 +11,6 @@
     display: none;
 }
 
-/* Menu */
-
-.menu__container{
-    position: fixed;
-    bottom: 0%;
-    height: 75px;
-    width: 100%;
-}
-
-.menu__lista{
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
-}
-
-.menu__lista li {
-    align-self: center;
-}
-
-.menu__itens{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-
-.menu__lista:nth-child(2),
-.menu__lista:nth-child(3),
-.menu__lista:nth-child(4){
-    display: none;
-}
 
 
 /* Seccion superior */
